@@ -1,4 +1,6 @@
-# Perl 6 Mode
+# P̶e̶r̶l̶ ̶6̶ ̶M̶o̶d̶e̶
+
+This is deprecated, **use [Raku Mode](https://github.com/Raku/raku-mode)** instead.
 
 [![License GPL 3][badge-license]][copying]
 [![MELPA Status](http://melpa.org/packages/perl6-mode-badge.svg)](http://melpa.org/#/perl6-mode)
