@@ -11,6 +11,8 @@
 
 ;;;###autoload
 (add-to-list 'interpreter-mode-alist '("perl6" . perl6-mode))
+(add-to-list 'interpreter-mode-alist '("spit" . spit-mode))
+(add-to-list 'auto-mode-alist '("\\.spt\\'" . spit-mode))
 
 ;;;###autoload
 (add-to-list 'auto-mode-alist '("\\.p[lm]?6\\'" . perl6-mode))

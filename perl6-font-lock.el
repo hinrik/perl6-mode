@@ -281,6 +281,8 @@
     (modify-syntax-entry ?= "." table)
     (modify-syntax-entry ?> "." table)
     (modify-syntax-entry ?| "." table)
+    (modify-syntax-entry ?# "<" table)
+    (modify-syntax-entry ?\n ">" table)
     table)
   "The top level syntax table for Perl 6.")
 

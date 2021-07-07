@@ -60,6 +60,12 @@
               :forward-token #'perl6-smie--forward-token
               :backward-token #'perl6-smie--backward-token))
 
+;;;###autoload
+(define-derived-mode spit-mode perl6-mode "Spit"
+  "Major mode for editing Spit code."
+  )
+
+(provide 'spit-mode)
 (provide 'perl6-mode)
 
 ;; Local Variables:
