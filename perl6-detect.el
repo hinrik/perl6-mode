@@ -16,6 +16,9 @@
 (add-to-list 'auto-mode-alist '("\\.p[lm]?6\\'" . perl6-mode))
 
 ;;;###autoload
+(add-to-list 'auto-mode-alist '("\\.raku\\'" . perl6-mode))
+
+;;;###autoload
 (defconst perl6-magic-pattern
   (rx line-start
       (0+ space)
